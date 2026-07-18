@@ -32,7 +32,7 @@
 -🍳 F&B 큐레이션 플랫폼 메인 비주얼 디자인: 'EATPICK'의 브랜드 아이덴티티와 반려견 캐릭터를 살린 메인 배너, 카테고리별 그리드 레이아웃 직접 디자인.
 
 
-<img src="https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EB%B0%98%EC%9D%91%ED%98%95%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png?raw=true" width="500" height="700">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/d037c4d0e199d7548614681e6328db986b094d59/EATPICK-frontend/IMG/%EB%B0%98%EC%9D%91%ED%98%95%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png" width="500" height="700">
 <!-- ![반응형메인화면](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EB%B0%98%EC%9D%91%ED%98%95%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png?raw=true) -->
 
 ### 📑Responsive Web Design (반응형 웹 디자인)
