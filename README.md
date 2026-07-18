@@ -43,7 +43,7 @@
 
 - 터치 친화적 UI: 모바일 사용자를 고려하여 우측의 사이드 메뉴 이미지 버튼들을 터치하기 알맞은 크기와 간격으로 설계했습니다.
 
-<img src="https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194800.png?raw=true">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/62a82ef92704ef5ce825c49741198bc4667c3bd6/EATPICK-frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194800.png">
 
 ### 📑Sidebar Navigation & Style Guide (사이드 메뉴 및 스타일 가이드)
 
