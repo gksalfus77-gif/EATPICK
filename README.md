@@ -53,7 +53,10 @@
 
 - 사용자 친화적 터치 타겟: 모바일 화면에서도 오동작 없이 명확한 내비게이션이 가능하도록 닫기 버튼(×) 및 메뉴 간격을 최적화했습니다.
 
-<img src="https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194521.png?raw=true">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/06426cae321019f5a21df15f38372d67b2f86a48/EATPICK-frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194521.png">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/06426cae321019f5a21df15f38372d67b2f86a48/EATPICK-frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194533.png">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/06426cae321019f5a21df15f38372d67b2f86a48/EATPICK-frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194544.png">
+<img src="https://github.com/gksalfus77-gif/EATPICK/blob/06426cae321019f5a21df15f38372d67b2f86a48/EATPICK-frontend/IMG/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202026-06-25%20194555.png">
 
 
 ###  📑Theme-based Color System (테마별 색상 시스템)
