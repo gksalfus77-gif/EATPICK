@@ -1,0 +1,309 @@
+
+        :root {
+            --primary-red: #E8272A;
+            --hover-red: #B01E20;
+            --light-red: #FFF0F0;
+            --bg-color: #f8f9fa;
+            --white: #ffffff;
+            --text-main: #222222;
+            --text-sub: #666666;
+            --border-color: #E2DDD6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: var(--white) !important;
+            color: var(--text-main) !important;
+            line-height: 1.6;
+        }
+
+        /*  */
+        .con-card {
+            width: 500px;
+            background: var(--white);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+            border: 1px solid var(--border-color);
+        }
+        .card-top {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--text-main);
+        }
+        .online-btn {
+            width: 100%;
+            background-color: var(--primary-red);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .online-btn:hover{
+            background-color: var(--hover-red);
+        }
+
+        .cs-header {
+            background-color: var(--white);
+            border-bottom: 1px solid var(--border-color) ;
+            padding: 30px 20px 40px 20px;
+            text-align: center;
+        }
+
+        .header-content {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--text-main) !important;
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .logo span {
+            color: var(--primary-red);
+        }
+
+        .welcome-box h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .welcome-box p {
+            color: var(--text-sub);
+            font-size: 15px;
+        }
+
+
+        .cs-search-bar {
+            max-width: 500px;
+            margin: 25px auto 0 auto;
+            position: relative;
+            display: flex;
+        }
+        .cs-search-bar input {
+            width: 100%;
+            padding: 14px 20px;
+            border: 2px solid var(--primary-red);
+            border-radius: 30px;
+            outline: none;
+            font-size: 14px;
+        }
+
+       
+        .quick-menu-container {
+            max-width: 1100px;
+            margin: -20px auto 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+        }
+        .quick-card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+            text-decoration: none;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .quick-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--primary-red);
+        }
+        .quick-card h4 {
+            font-size: 16px;
+            margin-bottom: 6px;
+            color: var(--hover-red);
+        }
+        .quick-card p {
+            font-size: 12px;
+            color: var(--text-sub);
+        }
+
+        
+        .main-layout-wrapper {
+            max-width: 1100px;
+            margin: 0 auto 60px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 25px;
+        }
+      
+
+        .left-column {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .info-details {
+            background-color: #FAF8F4;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .info-details h4 {  
+            font-size: 14px;
+            color: var(--text-sub);
+            margin-bottom: 4px;
+            padding-left: 10px;
+        }
+        .info-details .phone-number {
+            font-size: 28px;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+            padding-left: 10px;
+        }
+        .info-details p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 4px;
+            padding-left: 10px;
+        }
+
+        .btn-call {
+            display: block;
+            background-color: var(--primary-red);
+            color: var(--white);
+            text-decoration: none;
+            text-align: center;
+            padding: 14px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 16px;
+            transition: background-color 0.2s;
+        }
+        .btn-call:hover {
+            background-color: var(--hover-red);
+        }
+
+        
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 0;
+        }
+        .faq-trigger {
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            user-select: none;
+        }
+        .faq-trigger:hover {
+            color: var(--primary-red);
+        }
+        .faq-content {
+            font-size: 13px;
+            color: var(--text-sub);
+            padding-top: 8px;
+            display: none;
+        }
+
+       
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 500;
+            font-size: 13px;
+            color: #444;
+        }
+
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            box-sizing: border-box;
+            font-family: inherit;
+            font-size: 14px;
+            background-color: #fff;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+            border-color: var(--primary-red);
+        }
+
+        .form-group textarea {
+            height: 140px;
+            resize: none;
+        }
+
+        .online-btn {
+            width: 100%;
+            background-color: var(--primary-red);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .online-btn:hover {
+            background-color: var(--hover-red);
+        }
+
+        @media (max-width: 800px) {
+        .main-layout-wrapper {
+                grid-template-columns: 1fr;
+
+        }
+        
+        .con-card {
+            width: 450px;
+            background: var(--white);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+            border: 1px solid var(--border-color);
+        }
+
+        .card-top {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .quick-menu-container {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }

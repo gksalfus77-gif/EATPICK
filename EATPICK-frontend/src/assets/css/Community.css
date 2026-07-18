@@ -1,0 +1,523 @@
+
+        :root {
+            --bg-color: #c5c5c5;
+            --card-bg: #c5c5c5;
+            --border-color: #c5c5c5;
+            --text-main: #F3F5F7;
+            --text-sub: #616161;
+            --accent-color: #1E90FF;
+            --danger-color: #FF3B30;
+            --threads-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Noto Sans KR', var(--threads-font);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px 10px;
+        }
+
+
+         .logo {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--text-main);
+            text-align: left;
+            margin-bottom: 25px;
+        }
+        .logo span {
+            color: var(--primary-red);
+        }
+
+        .welcome-box h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .threads-container {
+            width: 100%;
+            max-width: 570px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+
+        .threads-header {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 10px;
+        }
+
+
+        .write-card {
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 16px;
+            padding: 16px;
+        }
+
+        .write-layout {
+            display: flex;
+            gap: 12px;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 14px;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .write-inputs {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .author-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .input-author {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-main);
+            font-size: 14px;
+            font-weight: 700;
+            padding: 4px 0;
+            outline: none;
+            width: 120px;
+        }
+
+        .input-text {
+            background: transparent;
+            border: none;
+            color: var(--text-main);
+            font-size: 15px;
+            line-height: 1.5;
+            resize: none;
+            outline: none;
+            width: 100%;
+            min-height: 60px;
+        }
+
+        .write-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #222;
+        }
+
+        .option-left {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-sub);
+            flex-wrap: wrap;
+        }
+
+        .option-left label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .option-left input[type="checkbox"] {
+            accent-color: var(--text-main);
+        }
+
+        .input-img-url {
+            background: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 6px;
+            color: #222;
+            padding: 4px 8px;
+            font-size: 11px;
+            outline: none;
+            width: 150px;
+        }
+
+        .submit-btn {
+            background-color: var(--text-main);
+            color: var(--bg-color);
+            border: none;
+            border-radius: 20px;
+            padding: 8px 18px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .submit-btn:hover {
+            opacity: 0.9;
+        }
+
+
+        .threads-feed {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+
+        .thread-post {
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 16px;
+            padding: 16px;
+            position: relative;
+        }
+
+        .post-layout {
+            display: flex;
+            gap: 12px;
+        }
+
+        .profile-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        .profile-line {
+            width: 2px;
+            background-color: #2D2D2D;
+            flex-grow: 1;
+            margin: 8px 0;
+            border-radius: 1px;
+            min-height: 30px;
+        }
+
+        .content-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+
+        .post-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .post-author {
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .post-badge {
+            background: #2D2D2D;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 10px;
+            color: #aaa;
+        }
+
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 13px;
+            color: var(--text-sub);
+        }
+
+        .delete-btn {
+            background: none;
+            border: none;
+            color: var(--text-sub);
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .delete-btn:hover {
+            color: var(--danger-color);
+        }
+
+
+        .post-body {
+            font-size: 15px;
+            line-height: 1.5;
+            color: var(--text-main);
+            word-break: break-all;
+        }
+
+
+        .post-image {
+            margin-top: 8px;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            max-height: 300px;
+        }
+
+        .post-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+
+        .quote-box {
+            margin-top: 8px;
+            padding: 10px 12px;
+            border-left: 2px solid var(--text-sub);
+            background: #ffffff;
+            border-radius: 0 8px 8px 0;
+            font-size: 13px;
+            color: var(--accent-color);
+        }
+
+ 
+        .post-actions {
+            display: flex;
+            gap: 16px;
+            margin-top: 10px;
+            color: var(--text-sub);
+        }
+
+        .action-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 13px;
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.1s;
+        }
+
+        .action-item:hover {
+            color: var(--text-main);
+        }
+
+        .action-item.liked {
+            color: #FF3040;
+        }
+
+        .comments-section {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border-color);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+
+        .comment-item {
+            display: flex;
+            gap: 10px;
+            font-size: 14px;
+            align-items: flex-start;
+        }
+
+        .comment-avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background-color: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 11px;
+            color: #fff;
+            flex-shrink: 0;
+        }
+
+        .comment-content-box {
+            flex-grow: 1;
+            background-color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 12px;
+            position: relative;
+        }
+
+        .comment-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+
+        .comment-author {
+            font-weight: 700;
+            font-size: 12px;
+            color: var(--text-main);
+        }
+
+        .comment-text {
+            color: #333;
+            line-height: 1.4;
+            word-break: break-all;
+        }
+
+
+        .comment-write-box {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            align-items: center;
+        }
+
+        .comment-input {
+            flex-grow: 1;
+            background-color: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 20px;
+            padding: 8px 16px;
+            color: var(--text-main);
+            font-size: 13px;
+            outline: none;
+        }
+
+        .comment-input::placeholder {
+            color: #333;
+        }
+
+        .comment-submit-btn {
+            background-color: transparent;
+            border: none;
+            color: #333;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+        .comment-submit-btn:hover {
+            color: var(--danger-color)
+        }
+
+
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin: 20px 0 40px 0;
+        }
+
+        .page-btn {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .page-btn:hover {
+            border-color: #555;
+            background-color: #222;
+        }
+
+        .page-btn.active {
+            background-color: var(--text-main);
+            color: var(--bg-color);
+            border-color: var(--text-main);
+            font-weight: 700;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+
+@media (max-width: 768px) {
+    .threads-header {
+        font-size: 20px;
+    }
+
+    .write-card, .thread-post {
+        padding: 12px;
+        border-radius: 12px;
+    }
+
+  
+    .write-options {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .option-left {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .input-img-url {
+        width: 100%; 
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .post-layout {
+        gap: 8px;
+    }
+
+    .user-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .post-author {
+        font-size: 13px;
+    }
+
+    .post-content {
+        font-size: 14px;
+    }
+
+    .comment-form {
+        gap: 5px;
+    }
+    
+    .comment-input {
+        font-size: 12px;
+    }
+}
