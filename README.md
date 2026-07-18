@@ -95,8 +95,8 @@
 - 체계적인 입력 폼(Form): 가게 이름, 카테고리 선택(Dropdown), 상세 주소, 전화번호 등 필수 데이터를 단계별로 명확하게 입력할 수 있는 필드를 배치하고, 직관적인 '취소' 및 '저장하기' 버튼으로 마감했습니다.
 
 
-![mambership](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC.png?raw=true)
-![mambership](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC02.png?raw=true)
+![mambership](https://github.com/gksalfus77-gif/EATPICK/blob/84ccc937fde00e3a066a2cdaf8e867865c259fb1/EATPICK-frontend/IMG/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC.png)
+![mambership](https://github.com/gksalfus77-gif/EATPICK/blob/84ccc937fde00e3a066a2cdaf8e867865c259fb1/EATPICK-frontend/IMG/%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC02.png)
 
 ### 👥 Admin Functionality: User Management (회원 관리 기능)
 플랫폼의 건강한 커뮤니티 환경을 유지하기 위해, 부적절한 이용자를 제재하고 회원 상태를 모니터링할 수 있는 회원 관리 인터페이스를 설계 및 구현했습니다.
