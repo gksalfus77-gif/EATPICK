@@ -2,7 +2,7 @@
 ## 🌐 EATPICK PROJECT
 
 
-![IMG](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EC%A0%84%EC%B2%B4%EC%A0%81%EC%9D%B8%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%86%8C%EA%B0%9C.png?raw=true)
+![IMG](https://github.com/gksalfus77-gif/CodingMiyoen/blob/5421700e97066d8e76fc0dc0826ba087264d00f2/EATPICK-frontend/IMG/%EC%A0%84%EC%B2%B4%EC%A0%81%EC%9D%B8%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20%EC%86%8C%EA%B0%9C.png)
 ### 🔖프론트 기술스텍
 | 기술 | 설명 |
 |------|------|
