@@ -70,7 +70,7 @@
 <details>
 <summary>✨ 관리자페이지 화면 </summary>
 
-![membership-page](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%A0%84%EC%B2%B4%20%ED%99%94%EB%A9%B4.png?raw=true)
+![membership-page](https://github.com/gksalfus77-gif/EATPICK/blob/e39393c59129a1b9eeaa20a8a5ef2a5b207c08c1/EATPICK-frontend/IMG/%EA%B4%80%EB%A6%AC%EC%9E%90%ED%8E%98%EC%9D%B4%EC%A7%80%20%EC%A0%84%EC%B2%B4%20%ED%99%94%EB%A9%B4.png)
 
 ### 🖥️ Responsive Admin Dashboard (반응형 관리자 페이지)
 플랫폼의 효율적인 운영 관리를 위해 모바일, 태블릿, 데스크톱(홈페이지) 환경에 모두 대응하는 반응형 대시보드 UI를 설계하고 디자인 시스템을 구축했습니다.
@@ -80,7 +80,7 @@
 - 일관된 브랜드 아이덴티티: 앞서 정의한 메인 레드 컬러 시스템을 관리자 페이지의 주요 활성화(Active) 메뉴와 버튼 등에 통일감 있게 적용하여 사용자 경험(UX)의 연속성을 유지했습니다.
 
 
-![mambership-newshop](https://github.com/gksalfus77-gif/CodingMiyoen/blob/main/EATPICK%20-%20frontend/IMG/%EA%B0%80%EA%B2%8C%EC%B6%94%EA%B0%80%20%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80.png?raw=true)
+![mambership-newshop](https://github.com/gksalfus77-gif/EATPICK/blob/e39393c59129a1b9eeaa20a8a5ef2a5b207c08c1/EATPICK-frontend/IMG/%EA%B0%80%EA%B2%8C%EC%B6%94%EA%B0%80%20%EA%B4%80%EB%A6%AC%ED%8E%98%EC%9D%B4%EC%A7%80.png)
 ### ⚙️ Admin Functionality: Restaurant Management (맛집 관리 기능)
 플랫폼 운영자가 입점된 식당 데이터를 실시간으로 제어하고 관리할 수 있도록 직관적인 CRUD 및 상태 변경 기능을 설계하고 디자인을 구현했습니다.
 
